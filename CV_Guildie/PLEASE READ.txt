@@ -1,0 +1,21 @@
+A online platform for managing and connecting non-profit and profit organizations. 
+This is an early version of a comercial product. 
+Please do not share or reveal this code for purposes other than evaluating my skills.
+
+Framework -> CodeIgniter
+Database -> mySql
+Programing language -> Html, CSS , PHP, JavaScript, Java (not shown), Ajax
+Design patterns -> MVC(model view controller),Minor patterns: singleton, observer, iterator 
+
+My part in the project encompassed building the:
+
+- DAO and VAO classes (libraries->package.dbms->simb.guildie.Vao and simb.guildie.Dao (except for the notification class))
+- support libraries or services (libraries->package.bls->simb.guildie.organ)
+- model classes which can be found in the models sub-directory
+- controller classes (controllers->managment(Company and User _controller.php) and organization (Event and Milestone _controller.php))
+- helped (backend and some frontend) with the view classes (event -> add/detail/overview.php), (milestone -> add/link/overview.php), 
+  (project->add/detail,overview/table.php), (user->add/detail,index,overview.php)
+- building the ER-model for the database and transforming it into a physical form (non normalized as of this version)
+
+Again i emphasize, that this is an early version of a work in progress project, with some defunct and unorganized classes, and unfinished code.
+Will be updated with the final version, when released. 

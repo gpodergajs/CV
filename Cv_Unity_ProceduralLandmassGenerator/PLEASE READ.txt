@@ -1,0 +1,11 @@
+A hobby project, for later commercial use. As of yet unfinished (better texturing, 3D transformation, smoothing edges)
+
+Programming language : C#
+IDE : Unity
+
+This version contains : - generating a height map, noise
+			- generating map
+			- generating textures
+			- texturing height map for different terrain types (water, grass, snow, hills,mountains) 
+
+Is a work in progress project, due to time limitations still unfinished.

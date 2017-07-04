@@ -1,0 +1,15 @@
+A non commercial product.
+Website for managing (adding,deleting, overview etc.) rooms in a hotel, and or hostel etc.
+
+Programming language : Html, CSS, PHP, JavaScript
+Database -> the data was serialized into a text file, and read (simulating a sql database) - viable for presentation purposes
+
+My part in the project ecompassed :
+
+- Backend for : - inserting rooms and reserving them (dynamic->app->src->res->main->room_availability_action.php,insertRoom_action.php,insertRoom_overview.php, reservation_overview.php, roombook_overview.php, user_action.php)
+		- generating objects for the former (app->src->lib->package.simb.iroks.bookkeeping->class.simb.iroks.roombook->Room.php,RoomBook.php)
+		- generating objects for reservation (app->src->lib->package.simb.iroks.accounting->class.simb.iroks.reservationbook->Reservation.php,ReservationBook.php)
+
+- Frontend for : - overview of rooms, inserting rooms, overview of booking, creating booking (dynamic->app->secure->overview_room.php,overview_booking.php,overview_room.php,insert_room.php,create_booking.php) -> and connecting it to the backend
+
+This project was made as a university project. 

@@ -1,0 +1,6 @@
+Self made k-nearest neighbour algorithm, for data-mining purposes.
+Read data from a text or CSV file, and mines the data.
+Results were cross-checked with WEKA and the algorithm performed correctly with a high accuracy value.
+
+
+This is a non-comercial product, free to use. 
