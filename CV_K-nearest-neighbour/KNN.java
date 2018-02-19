@@ -21,12 +21,12 @@ public class KNN {
 
 	public static void main(String [] args) throws IOException  {
 
-			// java -jar k_najblizjih_sosedov.jar -t iris_ucna.csv -T iris_testna.csv -k 10 -i(za podrobnejsi izpis)
-			String filePathTrain = null;
-			String filePathTest = null;
-			List<Double> calculations = new ArrayList<Double>();
+			
+		String filePathTrain = null;
+		String filePathTest = null;
+		List<Double> calculations = new ArrayList<Double>();
 		
-		   Options options = new Options();
+		Options options = new Options();
 	        options.addOption("i", false, "Podrobnejsi izpis");
 	        options.addOption("t", true, "Ucna mnozica");
 	        options.addOption("T", true, "Testna mnozica");
@@ -66,12 +66,12 @@ public class KNN {
 
 		List<String[]> learnData = getData(filePathTrain);
 		for(int i = 0 ; i<learnData.size()-1;i++) {
-		//instance majo n attributov v listu ter atribut za klasifikacijo
+		
 		instancesLearning.add(createInstanceData(filePathTrain).get(i));} // ucni primeri
 
-		//		<!------------------------------------------------------------------------------->
+				<!------------------------------------------------------------------------------->
 		List<Instance> instancesTesting = new ArrayList<>();
-		// dobimo iz CSV datoteke in shranimo v List
+		
 		List<String[]> testData = getData(filePathTest);
 		for(int i = 0 ; i<testData.size()-1;i++) {
 			instancesTesting.add(createInstanceData(filePathTest).get(i)); // testni primeri
